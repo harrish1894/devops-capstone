@@ -5,13 +5,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t sakthiomc123/devops-app .'
+                bat 'docker build -t sakthiemc123/devops-app .'
             }
         }
 
         stage('Push Docker Image') {
             steps {
-                bat 'docker push sakthiomc123/devops-app'
+                bat 'docker push sakthiemc123/devops-app'
             }
         }
 
