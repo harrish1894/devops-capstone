@@ -136,7 +136,7 @@ http://localhost:3000
 
 The Jenkins pipeline automates the following stages:
 
-# Stage 1 # – Clone Repository
+# Stage 1  – Clone Repository
 
 Jenkins pulls the latest code from GitHub.
 
